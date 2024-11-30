@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    n = int(input("Enter number))
+    n = int(input("Enter number"))
     student_marks = {} #create a dictionary
     for _ in range(n):
         name, *line = input().split()
